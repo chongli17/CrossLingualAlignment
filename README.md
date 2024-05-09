@@ -52,7 +52,7 @@ python src/generate_sup_data.py \
   --bactrian-dir $MY_PATH/CrossLingualAlignment/Bactrian-X/data \
   --output-dir $MY_PATH/CrossLingualAlignment/data
 
-cat $MY_PATH/CrossLingualAlignment/data/AFP.en_zh.X0.5.R3.0.json $MY_PATH/CrossLingualAlignment/data/AFP.en-zh-trans.C0.5.R3.0.json | shuf >$MY_PATH/AFP.en_zh.train.json
+cat $MY_PATH/CrossLingualAlignment/data/AFP.en_zh.X0.5.R3.0.json $MY_PATH/CrossLingualAlignment/data/AFP.en-zh-trans.C0.5.R3.0.json | shuf >$MY_PATH/CrossLingualAlignment/data/AFP.en_zh.train.json
 ```
 
 ### Train using AFP
