@@ -1,0 +1,23 @@
+{
+    "f3":
+    {
+        "en":{
+            "EXAMPLE_FORMAT": "{sentence1}, right? {label}, {sentence2}",
+            "CHOICES":["Yes", "No"],
+            "CONNECTOR":"</s>",
+            "FEW_SHOT_FORMAT": "{demos}{sentence1}, right? {choice}, {sentence2}"
+        },
+        "zh":{
+            "EXAMPLE_FORMAT": "{sentence1}，对吗？ {label}，{sentence2}",
+            "CHOICES":["对", "不对"],
+            "CONNECTOR":"</s>",
+            "FEW_SHOT_FORMAT": "{demos}{sentence1}，对吗？ {choice}, {sentence2}"
+        },
+        "ar":{
+            "EXAMPLE_FORMAT": "{sentence1}, أليس كذلك؟ {label}, {sentence2}",
+            "CHOICES":["نعم", "لا"],
+            "CONNECTOR":"</s>",
+            "FEW_SHOT_FORMAT": "{demos}{sentence1}, أليس كذلك؟ {choice}, {sentence2}"
+        }
+    }
+}

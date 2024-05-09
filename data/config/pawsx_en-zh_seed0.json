@@ -1,0 +1,14 @@
+[
+    {
+        "dataset_name":"pawsx",
+        "data_dir":"#TODO:Modify this path:/home/ubuntu/CrossLingualAlignment/data",
+        "prompt_formats_path":"{data_dir}/PAWS-X/prompt_formats.json",
+        "prompt_formats_name":"f3",
+        "prompt_sample_path":"{data_dir}/PAWS-X/x-final/{prompt_language}/dev_2k.tsv",
+        "prompt_languages":["en", "en"],
+        "test_sample_path":"{data_dir}/PAWS-X/x-final/{sample_language}/test_2k.tsv",
+        "sample_languages":["en", "zh"],
+        "num_shots":[0,5],
+        "infer_seeds":[0]
+    }
+]
